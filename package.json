@@ -1,0 +1,26 @@
+{
+  "name": "vue-study",
+  "version": "1.0.0",
+  "description": "- ### Korean(사용법) Language Pack for Visual Studio Code\r     Visual Studio를 한글로 바꿔주는 플러그인\r - ### Beautify\r     자동 줄맞춤 기능을 사용할 수 있게 해주는 플러그인",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lived1024/Vue-Study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lived1024/Vue-Study/issues"
+  },
+  "homepage": "https://github.com/lived1024/Vue-Study#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

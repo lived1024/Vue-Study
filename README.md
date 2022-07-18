@@ -10,3 +10,20 @@
     ex) Ctrl  + Shift + L
 - ### Auto Rename Tag
     태그 변경 시 쌍으로 이루어진 태그를 자동으로 변경
+
+
+# Node.js
+## 1. 설치한 패키지
+### PARCEL-BUNDLER
+```
+$ npm install parcel-bundler -D
+```
+### LODASH
+```
+$ npm install lodash
+```
+
+## 2. 프로젝트 초기 시작 설정 명령어
+```
+$ npm install -y
+```
