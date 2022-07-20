@@ -14,11 +14,21 @@
 
 # Node.js
 ## 1. 설치한 패키지
-### PARCEL-BUNDLER
+### PARCEL-BUNDLER 
+ - 아주 간편하게 번들링 해준다.
 ```
 $ npm install parcel-bundler -D
+
+// package.json > scripts 에 아래와 같이 설정
+/* "scripts": {
+ *   "dev" : "parcel index.html",               --> 개발자모드
+ *   "build" : "parcel build index.html"        --> 패키지 빌드
+*/ },
+$ npm run dev
+$ npm run build
 ```
-### LODASH
+### LODASH 
+- JavaScript에서 배열 안의 객체들의 값을 handling(배열, 객체 및 문자열 반복 / 복합적인 함수 생성) 할 때 유용
 ```
 $ npm install lodash
 ```
