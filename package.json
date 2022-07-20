@@ -4,7 +4,8 @@
   "description": "- ### Korean(사용법) Language Pack for Visual Studio Code\r     Visual Studio를 한글로 바꿔주는 플러그인\r - ### Beautify\r     자동 줄맞춤 기능을 사용할 수 있게 해주는 플러그인",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" : "parcel index.html",
+    "build" : "parcel build index.html"
   },
   "repository": {
     "type": "git",
