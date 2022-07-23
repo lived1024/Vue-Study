@@ -10,6 +10,8 @@
     ex) Ctrl  + Shift + L
 - ### Auto Rename Tag
     태그 변경 시 쌍으로 이루어진 태그를 자동으로 변경
+- ### Vetur
+    Visual Studio Code 한글화
 
 
 # Node.js
