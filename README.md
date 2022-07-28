@@ -39,3 +39,6 @@ $ npm install lodash
 ```
 $ npm install -y
 ```
+
+## 3. 대상 예제 레파지토리
+https://github.com/ParkYoungWoong/webpack-template-basic
