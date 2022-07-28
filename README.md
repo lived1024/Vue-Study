@@ -40,5 +40,20 @@ $ npm install lodash
 $ npm install -y
 ```
 
-## 3. 대상 예제 레파지토리
-https://github.com/ParkYoungWoong/webpack-template-basic
+# 프로젝트 기본 설정
+## 대상소스
+[패스트캠퍼스 강의 원본](https://github.com/ParkYoungWoong/webpack-template-basic)
+
+## 설정 스크립트
+```
+/* npx degit를 이용하게 되면 git clone처럼 소스를 가져올 수 있다!!
+ * git clone과 차이점은 단순히 소스만 가져옴 - history, branch 정보 등을 가져오지
+ * 않는다.
+ * 
+ * npx degit                                 git clone과 비슷한 명령어
+ * ParkYoungWoong/webpack-template-basic     대상 저장소
+ * vue3-webpack-template                     저장할 폴더
+ * 해당 명령어를 실행 후, vue3-webpack-template 폴더가 생성되어 소스가 다운되어있다.
+*/
+$ npx degit ParkYoungWoong/webpack-template-basic vue3-webpack-template
+```
