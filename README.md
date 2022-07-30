@@ -57,3 +57,30 @@ $ npm install -y
 */
 $ npx degit ParkYoungWoong/webpack-template-basic vue3-webpack-template
 ```
+
+# Vue.js 개발 설정
+```
+// @next 입력 X : vue2 설치 (이전버전) 
+// @next 입력 O : vue3 설치 (최신버전)
+$ npm i vue@next
+
+// -D는 개발자모드
+$ npm i -D vue-loader@next vue-style-loader @vue/compiler-sfc
+// 설치 이후에는 webpack.config.js에서 rules 설정을 추가해줘야한다.
+  module: {
+    rules: [
+      {
+        test: /\.vue$/,
+        use: ['vue-loader']
+      },
+      {
+        test: /\.s?css$/,
+        use: [
+          // vue-style-loader를 'style-loader' 위에 추가!!
+          'vue-style-loader',
+          'style-loader',
+        ]
+      },
+    ],
+  }
+```
