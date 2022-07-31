@@ -66,21 +66,11 @@ $ npm i vue@next
 
 // -D는 개발자모드
 $ npm i -D vue-loader@next vue-style-loader @vue/compiler-sfc
-// 설치 이후에는 webpack.config.js에서 rules 설정을 추가해줘야한다.
-  module: {
-    rules: [
-      {
-        test: /\.vue$/,
-        use: ['vue-loader']
-      },
-      {
-        test: /\.s?css$/,
-        use: [
-          // vue-style-loader를 'style-loader' 위에 추가!!
-          'vue-style-loader',
-          'style-loader',
-        ]
-      },
-    ],
-  }
+// 설치 이후에는 webpack.config.js에서 추가 설정이 필요하다.
 ```
+## vue-style-loader 설정 방법
+패스트캠퍼스 - 한 번에 끝내는 프론트엔드 초격차 패키지 - Part 9. Vue.js - 4강 참조
+## vue-loader 설정 방법
+패스트캠퍼스 - 한 번에 끝내는 프론트엔드 초격차 패키지 - Part 9. Vue.js - 4강 참조
+## vue-style-loader 설정 방법
+패스트캠퍼스 - 한 번에 끝내는 프론트엔드 초격차 패키지 - Part 9. Vue.js - 4강 참조
